@@ -1,0 +1,11 @@
+version: '2.0'
+services:
+  queue:
+    build: ./rabbitmq # found in master repostiroy
+    ports:
+      - "8080:15672"
+      - "5672:5672"
+    restart: unless-stopped
+  go-worker:
+    build: ./ # found in master repostiroy
+    restart: unless-stopped

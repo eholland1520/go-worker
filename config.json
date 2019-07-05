@@ -1,0 +1,13 @@
+{
+    "User":"nodeassetadmin",
+    "Password": "nodeassetpass",
+    "Host": "35.194.3.155",
+    "Port": "5672",
+    "Queue": "events",
+    "Consumer": "",
+    "Autoack": true,
+    "Exclusive": false,
+    "Nolocal": false,
+    "Nowait": false,
+    "Args": null
+}
