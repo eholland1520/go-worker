@@ -1,7 +1,7 @@
 {
     "User":"nodeassetadmin",
     "Password": "nodeassetpass",
-    "Host": "35.194.3.155",
+    "Host": "queue",
     "Port": "5672",
     "Queue": "events",
     "Consumer": "",

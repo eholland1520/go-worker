@@ -1,5 +1,5 @@
 # build stage
-FROM golang:alpine AS build-env
+FROM golang:1.16.8-alpine3.14 AS build-env
 
 RUN apk update && apk upgrade && \
     apk add --no-cache bash git openssh
